@@ -31,7 +31,8 @@ const MyApp = ({ Component, pageProps }) => {
 
 		setFilms({
 			results: Films,
-			page: resultTv.page
+			page: resultTv.page,
+			query: query_select
 		})
 	}
 
